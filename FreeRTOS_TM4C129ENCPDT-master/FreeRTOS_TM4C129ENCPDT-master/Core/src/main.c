@@ -91,5 +91,6 @@ void Task2Handler()
 void vAssertCalled(char *FileName, uint32_t LineNum)
 {
    taskDISABLE_INTERRUPTS();
-   while(1);
+   for(;;);
+
 }
